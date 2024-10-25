@@ -9,3 +9,7 @@
 
 ## 3. Configurando uma instância de Banco de Dados na Azure
 * Aula que apresenta uma breve amostra das configurações ao criar uma instancia de vm ou banco de dados, destacando a parte do preview sobre os custos que teremos utilizando determinada configuração
+
+## 4. Construindo Arquiteturas no Azure
+* Aula que inicia sobre a questão dos datacenters e zonas de disponibilidade, onde podemos encontrar a lista de datacenters
+* Segunda parte ensinando sobre a criaçao de um Grupo de recursos e alguns atalhos que temos, além da criação de uma rede privada
