@@ -24,3 +24,10 @@
 * Parte de redundancia : LRS (Locally Redundant Storage): Três cópias dos dados dentro do mesmo datacenter, oferecendo alta durabilidade local. ZRS (Zone-Redundant Storage): Armazenamento redundante em várias zonas de disponibilidade dentro de uma região, proporcionando proteção contra falhas de datacenter. GRS (Geo-Redundant Storage) e RA-GRS (Read-Access Geo-Redundant Storage): Replicação dos dados entre regiões geograficamente distantes para garantir alta disponibilidade e recuperação em caso de falhas regionais.
 * AzCopy: Ferramenta de linha de comando para copiar dados de e para contas de armazenamento no Azure de forma rápida e eficiente.
 * Azure Storage Explorer: Interface gráfica para gerenciar contas de armazenamento, permitindo visualizar, criar, copiar, mover e excluir arquivos e objetos com facilidade
+
+## 7. Entendendo sobre Segurança e Identidade na Azure
+* Microsoft Defender for Cloud  para fornecer visibilidade em tempo real das ameaças e vulnerabilidades, ajudando a gerenciar a postura de segurança dos recursos.
+* Azure Active Directory (Azure AD) é o serviço central de identidade e autenticação no Azure, permitindo a gerência centralizada de usuários, grupos e permissões.
+* NSGs (Network Security Groups) para controlar o tráfego de entrada e saída das redes virtuais e proteger os recursos contra acessos não autorizados.
+* A Azure fornece criptografia automática para dados em trânsito e em repouso para garantir a segurança das informações armazenadas e transferidas.
+* Uso de ferramentas como o Azure Monitor e o Azure Sentinel (SIEM) para acompanhar eventos e detectar atividades suspeitas, permitindo respostas rápidas a incidentes de segurança.
