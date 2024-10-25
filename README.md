@@ -57,3 +57,10 @@
 * O Azure Bicep é uma linguagem simplificada que facilita a criação de templates para a implantação de recursos no Azure, sendo uma alternativa mais simples e legível em comparação aos ARM Templates tradicionais, melhorando a experiência de infraestrutura como código, oferecendo sintaxe mais limpa e suporte nativo ao Azure, tornando o gerenciamento e a automação de infraestrutura mais eficientes
 * Azure Kubernetes Service (AKS) é utilizado para orquestrar contêineres no Azure, facilitando a implantação e o gerenciamento de aplicações baseadas em contêineres em escala
 * Helm permite a criação de charts para configurar e gerenciar a implantação de contêineres e suas dependências de forma simplificada e reutilizável
+
+## 11. Monitoramento Inteligente com o Azure
+* O Azure Monitor é a principal ferramenta de monitoramento do Azure, que coleta telemetria e logs de recursos na nuvem e ambientes locais, como VMs, redes, bancos de dados e aplicativos, proporcionando uma visão unificada e centralizada do desempenho e da integridade dos recursos, facilitando a identificação de problemas e a tomada de decisões baseadas em dados
+* Monitoramento de infraestrutura como máquinas virtuais (VMs), redes e contêineres, com métricas que incluem uso de CPU, memória, latência de rede e outros indicadores críticos
+* Criação de dashboards personalizados no Azure Monitor para consolidar métricas e logs importantes em uma única interface, facilitando a visualização e o acompanhamento em tempo real
+* Configuração de ações automáticas em resposta a alertas, como escalonamento de recursos, execução de scripts ou notificações via e-mail/SMS para equipes de operações
+* Monitoramento de ameaças de segurança em conjunto com o Microsoft Defender for Cloud, que analisa logs e eventos de segurança para detectar atividades suspeitas
