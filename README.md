@@ -18,3 +18,9 @@
 * Aula que aborda sobre o tema de dimensionamento em máquinas virtuais, inicialmente a criaçao de uma máquina virtual e seus diferentes tipos e configurações, sistemas operacionais
 * Logo em seguida, é mostrado a parte da configuração do dimensionamento, possibilitando configurarmos diferentes configurações como CPU e RAM aumentadas para determinados horarios de pico ou stress
 * Tipos de armazenamento de disco, algumas métricas e configurações como desligamento automatico, backup e etc
+
+## 6. Dominando o Armazenamento na Azure
+* Tipos de armazenamento azure, Blob Storage para armazenamento não estruturado de arquivos, imagens, vídeos e backups, Azure Files serviços da azure que permite o compartilhamento de arquivos gerenciados, Disk Storage para máquinas virtuais, otimizados para desempenho e confiabilidade, Table Storage para armazenamento de tabelas noSQL e Queue Storage para armazenamento de filas
+* Parte de redundancia : LRS (Locally Redundant Storage): Três cópias dos dados dentro do mesmo datacenter, oferecendo alta durabilidade local. ZRS (Zone-Redundant Storage): Armazenamento redundante em várias zonas de disponibilidade dentro de uma região, proporcionando proteção contra falhas de datacenter. GRS (Geo-Redundant Storage) e RA-GRS (Read-Access Geo-Redundant Storage): Replicação dos dados entre regiões geograficamente distantes para garantir alta disponibilidade e recuperação em caso de falhas regionais.
+* AzCopy: Ferramenta de linha de comando para copiar dados de e para contas de armazenamento no Azure de forma rápida e eficiente.
+* Azure Storage Explorer: Interface gráfica para gerenciar contas de armazenamento, permitindo visualizar, criar, copiar, mover e excluir arquivos e objetos com facilidade
