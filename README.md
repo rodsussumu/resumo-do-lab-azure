@@ -31,3 +31,11 @@
 * NSGs (Network Security Groups) para controlar o tráfego de entrada e saída das redes virtuais e proteger os recursos contra acessos não autorizados.
 * A Azure fornece criptografia automática para dados em trânsito e em repouso para garantir a segurança das informações armazenadas e transferidas.
 * Uso de ferramentas como o Azure Monitor e o Azure Sentinel (SIEM) para acompanhar eventos e detectar atividades suspeitas, permitindo respostas rápidas a incidentes de segurança.
+
+## 8. Otimizando Custos no Azure
+* Azure Cost Management para monitorar e analisar o uso e os custos associados aos recursos em tempo real, permitindo que os usuários acompanhem seus gastos e identifiquem picos de consumo.
+* Configuração de alertas de orçamento e dashboards personalizados para notificar quando os custos ou o uso se aproximarem de limites predefinidos, ajudando a prevenir surpresas no faturamento.
+* Escolher tamanho de VM e RAM de acordo com a necessidade, evitando custos desnecessarios, configuração do auto-scaling para adicionar ou remover recursos automaticamente conforme a demanda, garantindo que você pague apenas pelo que utiliza. e desligar os recursos que não estiverem em uso via script ou automações.
+* Azure Reservations: Aquisição de instâncias reservadas para VMs e outros serviços com descontos significativos (até 72%) em comparação com o pagamento sob demanda.
+* Azure Hybrid Benefit: Uso de licenças locais existentes de Windows Server e SQL Server para reduzir custos ao migrar para o Azure, aproveitando a infraestrutura já licenciada.
+* Instâncias Spot: Utilização de VMs de baixo custo (spot) para workloads que são tolerantes a interrupções, permitindo economias significativas.
