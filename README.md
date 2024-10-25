@@ -39,3 +39,11 @@
 * Azure Reservations: Aquisição de instâncias reservadas para VMs e outros serviços com descontos significativos (até 72%) em comparação com o pagamento sob demanda.
 * Azure Hybrid Benefit: Uso de licenças locais existentes de Windows Server e SQL Server para reduzir custos ao migrar para o Azure, aproveitando a infraestrutura já licenciada.
 * Instâncias Spot: Utilização de VMs de baixo custo (spot) para workloads que são tolerantes a interrupções, permitindo economias significativas.
+
+## 9. Gerenciando Politicas em Acessos Azure
+* Azure Policy permite criar, gerenciar e aplicar políticas que garantem que os recursos estejam em conformidade com regras organizacionais ou requisitos de conformidade, como padrões de segurança, tipos de VMs permitidos ou configurações de rede específicas.
+* A política é atribuída a um escopo, que pode ser um grupo de gerenciamento, uma assinatura, um grupo de recursos ou um recurso específico.
+* O RBAC (Role-Based Access Control) é usado para gerenciar quem tem acesso a recursos específicos e quais ações podem ser realizadas, seguindo o princípio de menor privilégio e permite a atribuição de funções predefinidas ou personalizadas a usuários, grupos ou identidades de serviço, como Owner(Controle total sobre o recurso, incluindo a gestão de acesso), Colaborador (Permissão para gerenciar recursos, mas sem alterar configurações de acesso) e Leitor(Acesso apenas para visualizar informações sem possibilidade de modificar)
+* Azure AD é o serviço central para gerenciar identidades e permissões na plataforma Azure, integrando com RBAC para autenticação e autorização.
+* Azure Monitor e Azure Security Center ajudam a monitorar e auditar os acessos e conformidade das políticas, fornecendo alertas e relatórios quando há desvios ou tentativas de acessos não autorizados.
+
